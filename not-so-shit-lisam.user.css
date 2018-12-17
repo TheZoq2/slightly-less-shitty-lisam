@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           Bearable lisam
+@namespace      github.com/thezoq2/bearable-lisam
+@version        1.0.0
+@description    Removes all the stupid static unactionable things that don't hide when you scroll on lisam. Who thought a like button on a static page was a good idea, especially when you can't hide it
+@author         Frans Skarman
+==/UserStyle== */
+
+@-moz-document url-prefix("https://liuonline.sharepoint.com/") {
+    /* Hide the bar with the like button */
+    .footerBar_ab702819,
+    /* Hide the thing at the top that only contains a "published" text and a button to send the current page by email. */
+    .SPPageChrome-app .ms-CommandBar,
+    /* The huge banner that only contains the words "student portal" */
+    .ms-compositeHeader,
+     /* Language selection useful sure, but why is it floating?*/
+    .studentsHeader_adcbc1d8,
+    /* Footer on the bottom of the page whose only purpose is to contain a button for sending an email for help */
+    .portalFooter_0a1a1283 
+    {
+        display: none;
+        height: 0;
+    }
+}
