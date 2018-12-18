@@ -22,3 +22,27 @@
         height: 0;
     }
 }
+
+@-moz-document url-prefix("https://www.student.ladok.se/student/#"){
+    /* This styling removes the unnecessary padding all over the place in the courses page.
+        Before this change only like 6 courses could fit the screen. Now you can see around 15 of them.*/
+    .card
+    {
+        padding: 0px 10px;
+        margin-bottom: 10px;       
+    }
+    .card-body
+    {
+        padding: 0;
+    }
+    
+    .card-body h4
+    {
+        margin: 0;
+    }
+    
+    .card-body p
+    {
+        margin: 0;
+    }
+}
