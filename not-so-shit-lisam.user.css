@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Bearable lisam
 @namespace      github.com/thezoq2/bearable-lisam
-@version        1.0.0
+@version        1.1.0
 @description    Removes all the stupid static unactionable things that don't hide when you scroll on lisam. Who thought a like button on a static page was a good idea, especially when you can't hide it
 @author         Frans Skarman
 ==/UserStyle== */
@@ -29,18 +29,20 @@
     .card
     {
         padding: 0px 10px;
-        margin-bottom: 10px;       
+        margin-bottom: 10px;
+        border-left: none;
+        border-right: none;
+        border-top:none;
     }
     .card-body
     {
-        padding: 0;
+        padding: 3px;
+        display:flex;
+        justify-content: space-between;
     }
     
-    .card-body h4
-    {
-        margin: 0;
-    }
-    
+    /* Hide the useless white space around cards */
+    .card-body h4,
     .card-body p
     {
         margin: 0;
