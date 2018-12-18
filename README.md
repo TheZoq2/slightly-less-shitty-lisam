@@ -20,4 +20,10 @@ Then, open the [raw version of the not-so-shit-lisam.user.css](https://github.co
 Finally click "install style" and enjoy being slightly less annoyed at the stupidity
 that is Lisam.
 
+## More screenshots
 
+### Old grade page
+![grades_before](grades_before.png)
+
+### Updated grade page
+![grades_after](grades_after.png)
