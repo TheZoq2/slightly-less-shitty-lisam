@@ -20,6 +20,16 @@ Then, open the [raw version of the not-so-shit-lisam.user.css](https://github.co
 Finally click "install style" and enjoy being slightly less annoyed at the stupidity
 that is Lisam.
 
+
+## Disclaimer
+
+This userstyle is a hack which relies on the structure of lisam and microsoft
+sharepoint, it might break or cause strange issues because of incorrect
+assumptions or LIU/microsoft changes. If things break on lisam or some other
+sharepoint site, try disabling the userstyle. If that does help, feel free to
+report an issue in this github repo detailing what broke and I will try and fix
+it.
+
 ## More screenshots
 
 ### Old grade page
